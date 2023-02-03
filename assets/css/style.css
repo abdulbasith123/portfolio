@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition);
 }
 
-.card:is(:hover, :focus-within, :active) .card-content {
+.card:is(:onclick, :focus-within, :active) .card-content {
   opacity: 1;
 }
 
