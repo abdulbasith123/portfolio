@@ -340,9 +340,18 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition);
 }
 
-.card:is(:onclick, :focus-within, :active) .card-content {
+@media (hover: hover){
+.card:is(:hover, :focus-within, :active) .card-content {
   opacity: 1;
 }
+}
+
+@media (hover: none){
+  .card-content {
+    opacity: 1;
+  }
+  }
+
 
 .card-content>ion-icon {
   position: absolute;
