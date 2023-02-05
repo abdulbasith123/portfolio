@@ -83,6 +83,12 @@
 
 }
 
+/* test */
+.test{
+  display:flex;
+  justify-content:space-around;
+}
+
 
 /* button */
 .bn632-hover {
@@ -127,16 +133,16 @@
 
 /* SKILLS */
 
-/* .program {
+.program {
   border-width: 2px;
   border-style: solid;
   border-color: #FF4824;
   padding: 8px;
   border-radius: 20px;
-  width: 120px;
+  width: 114px;
   text-align: center;
   margin: 10px;
-} */
+}
 
 /*-----------------------------------*\
   #RESET
@@ -1272,4 +1278,14 @@ textarea.input-field {
     width: 275px;
   }
 
+}
+
+@media screen and (max-width: 450px) {
+  .test{
+    display:inline;
+  
+  }
+  .wrapper{
+    justify-content:center !important;
+  }
 }
